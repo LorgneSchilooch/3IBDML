@@ -1,0 +1,10 @@
+
+    std::cout << "X.row(0) : " << endl << X.row(0).col(2) << endl;
+    std::cout << "Y.row(0) : " << endl << Y.row(0) << endl;
+    std::cout << "alpha : " << endl << alpha << endl;
+    std::cout << "W.col(0) : " << endl << W.col(0) << endl;
+
+    std::cout << "W.col(0): " << W.col(0) + alpha * Y.row(0) * X.row(0).col(0) << endl;
+    std::cout << "W.col(1): " << W.col(1) + alpha * Y.row(0) * X.row(0).col(1) << endl;
+    std::cout << "W.col(2): " << W.col(2) + alpha * Y.row(0) * X.row(0).col(2) << endl;
+    std::cout << "W.col(3): " << W.col(3) + alpha * Y.row(0) * X.row(0).col(3) << endl;
